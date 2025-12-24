@@ -1099,6 +1099,77 @@
         .monte-der {
           margin-right: -30px;
         }
+        /* --- Ajustes para móviles --- */
+@media (max-width: 640px) {
+  body {
+    font-size: 3vmin;
+  }
+
+  .modal-romantico {
+    font-size: 3.5vmin;
+    padding: 1em;
+  }
+
+  .modal-romantico h2 {
+    font-size: 4.5vmin;
+  }
+
+  .modal-romantico button {
+    font-size: 3vmin;
+    padding: 0.8em 2em;
+  }
+
+  .special-text {
+    font-size: 5vmin;
+    top: 4%;
+  }
+
+  .flowers {
+    transform: scale(0.55);
+  }
+
+  .flower__line {
+    width: 1.5vmin;
+    height: 45vmin;
+  }
+
+  .flower__leaf {
+    width: 7vmin;
+    height: 12vmin;
+  }
+
+  .flower__leaf--4,
+  .flower__leaf--5,
+  .flower__leaf--6 {
+    width: 5vmin;
+    height: 10vmin;
+  }
+
+  .flower__light {
+    width: 0.6vmin;
+    height: 0.6vmin;
+    box-shadow: 0 0 0.8vmin rgba(255, 221, 0, 0.8);
+  }
+
+  .gorro-tulipan {
+    top: -27vmin !important;
+    width: clamp(140px, 32vmin, 240px) !important;
+  }
+
+  .music-bar-container {
+    top: calc(5% + 3.2vmin);
+    font-size: 0.95em;
+    padding: 0.42em 0.7em;
+  }
+
+  .flower__grass {
+    transform: scale(0.45) rotate(-48deg) rotateY(40deg);
+  }
+
+  .flower--1, .flower--2, .flower--3 {
+    bottom: 12vmin;
+  }
+}
     </style>
 </head>
 <body class="not-loaded">
@@ -1381,3 +1452,4 @@
   </script>
 </body>
 </html>
+
